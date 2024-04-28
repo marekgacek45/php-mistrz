@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 const FeatureList = [
 	{
 		title: 'Skondensowana wiedza',
-		Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+		Svg: require('@site/static/img/book.svg').default,
 		description: (
 			<>
 				Sprawdź unikatową kolekcję najlepszych poradników oraz kursów okraszony autorskim <code>wademekum</code>.
@@ -14,7 +14,7 @@ const FeatureList = [
 	},
 	{
 		title: 'Poznaj frameworki',
-		Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+		Svg: require('@site/static/img/rocket.svg').default,
 		description: (
 			<>
 				Oprócz opanowania podstaw PHP,zagłęb się również w tajniki framweworków, takich jak <code>Laravel</code> czy{' '}
@@ -24,7 +24,7 @@ const FeatureList = [
 	},
 	{
 		title: 'Narzędzia do pracy',
-		Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+		Svg: require('@site/static/img/computer.svg').default,
 		description: (
 			<>
 				Nie trać czasu na niesprawdozne narzędzia oraz paczki. Tutaj znajdziesz cały <code>niezbędnik</code> który
