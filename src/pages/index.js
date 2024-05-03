@@ -23,7 +23,7 @@ function HomepageHeader() {
         <div className={styles.buttons} style={{gap:'32px'}}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/wstęp">
            Zaczynajmy!
           </Link>
           <Link

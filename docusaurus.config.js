@@ -57,7 +57,24 @@ const config = {
 				},
 			}),
 		],
+		
+	],plugins: [
+		
+		[
+		  '@docusaurus/plugin-content-docs',
+		  {
+			id: 'sources',
+			path: 'sources',
+			routeBasePath: 'sources',
+			sidebarPath: require.resolve('./sidebarsSources.js'),
+			// ... other options
+		  },
+		 
+		],
+	
 	],
+	
+	
 
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -79,11 +96,20 @@ const config = {
 				items: [
 					{
 						type: 'docSidebar',
-						sidebarId: 'tutorialSidebar',
+						sidebarId: 'phpSidebar',
 						position: 'left',
-						label: 'Basic',
+						label: 'PHP',
 					},
-					{ to: '/blog', label: 'Źródła', position: 'left' },
+					// { to: '/blog', label: 'Źródła', position: 'left' },
+					{
+						to: '/sources/php', // To highlight the navbar item, you must link to a document, not a top-level directory
+						position: 'left',
+						label: 'Źródła',
+						activeBaseRegex: `/sources/`,
+					},
+					
+					{ to: '/youtube', label: 'YouTube', position: 'left' },
+					
 					{
 						href: 'https://github.com/marekgacek45/phpMistrz',
 						label: 'GitHub',
