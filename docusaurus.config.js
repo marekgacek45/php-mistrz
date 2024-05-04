@@ -102,7 +102,7 @@ const config = {
 					},
 					// { to: '/blog', label: 'Źródła', position: 'left' },
 					{
-						to: '/sources/php', // To highlight the navbar item, you must link to a document, not a top-level directory
+						to: '/sources/PHP', // To highlight the navbar item, you must link to a document, not a top-level directory
 						position: 'left',
 						label: 'Źródła',
 						activeBaseRegex: `/sources/`,
@@ -123,14 +123,14 @@ const config = {
 					{
 						title: 'PHP Mistrz',
 						items: [
-							{
-								label: 'Basic',
-								to: '/docs/intro',
-							},
-							{
-								label: 'Źródła',
-								to: '/docs/intro',
-							},
+							// {
+							// 	label: 'Basic',
+							// 	to: '/docs/intro',
+							// },
+							// {
+							// 	label: 'Źródła',
+							// 	to: '/docs/intro',
+							// },
 						],
 					},
 					{
@@ -157,10 +157,10 @@ const config = {
 					{
 						title: 'More',
 						items: [
-							{
-								label: 'Blog',
-								to: '/blog',
-							},
+							// {
+							// 	label: 'Blog',
+							// 	to: '/blog',
+							// },
 							{
 								label: 'GitHub',
 								href: 'https://github.com/facebook/docusaurus',
