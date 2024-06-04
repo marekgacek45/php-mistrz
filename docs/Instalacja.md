@@ -46,5 +46,26 @@ Następnie odświeżamy przeglądarkę i wszystko powinno śmigać pierwszorzęd
 ![pomyślny test Live Server'a](/img/php/ls.gif)
 
 ### MySQL
+
+Nie ma PHP bez bazy danych, a jak jakaś bazka to pierwszym wyborem jest klasyczny MySql. Jeżeli korzystacie z **XAMPP** lub **Laragon** to MySql będziecie mieli zainstalowane w pakiecie. Jednak w przypadku **Laravel Herd** opcja zarządzania bazami jest w wersji płatnej. Nie ma się jednak co martwić, instalacja jest na prawdę bardzo prosta. 
+
+Poniżej zostawiam link do instalacji środowiska **MySql**. Odbywa się ona w identyczny sposób jak w dziesiątkach innych instalatorów. Zostawię również link do filmiku na YouTube autorstwa [Susan B](https://www.youtube.com/@codewithsusan). która w razie potrzeby przeprowadzi Cię przez ten proces.
+
+Instalator MySql: [link](https://www.mysql.com/downloads/installator/)
+Filmik prowadzący przez konfigurację: [link](https://www.youtube.com/watch?v=9qVyrVNKYhQ&t=661s&ab_channel=SusanB.)
+
 ### Table Plus
+
+W moim mniemaniu jest to niewątpliwie najbardziej przyjazny program do zarządzania bazami danych. Jego niesamowicie przyjazny interfejs rekomenduje mi nawet potrzebę instalacji dodatkowego managera tym razem do tworzenia nowych baz. Niestety TablePlus tego nie potrafi (możliwe, że w wersji premium posiada taki bajer).
+
+Dodanie bazy jest naprawdę prostę, załączam poniżej filmik na którym pokażę Ci jak to zrobić.
+
+Instalator TablePlus: [link](https://tableplus.com/)
+
 ### Heidi SQL
+
+Nie jest zbyt piękny graficznie ale swoje zadanie czyli tworzenie bazki spełnia doskonale. 
+
+Instalator HeidiSql: [link](https://www.heidisql.com/)
+
+Film pokazujący jak stworzyć, a następnie zarządzać bazą danych w MySql:  [link](https://www.youtube.com/watch?v=4GD44r8y9Bc&t=716s&ab_channel=MarekGacek)
